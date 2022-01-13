@@ -8,8 +8,8 @@ ctx.stroke();
 /* const url = 'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=960';
 fetch(url).then(response => console.log(response)); */
 
-const url = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=997";
-fetch(url).then(response => console.log(response));
+// const url = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=997";
+// fetch(url).then(response => console.log(response));
 
 const numbersEle = document.querySelectorAll(".numbers");
 
