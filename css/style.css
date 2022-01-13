@@ -1,0 +1,49 @@
+nav span {
+    margin: 0.5em;
+    font-size: 20pt;
+    width : 40px;
+    height : 40px;
+    line-height: 36px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.ball1 {
+    background: #fbc400;
+    /* text-shadow: 0px 0px 3px rgb(73 57 0 / 80%); */
+}
+
+.ball2 {
+    background: #69c8f2;
+    /* text-shadow: 0px 0px 3px rgb(0 49 70 / 80%); */
+}
+
+.ball3 {
+    background: #ff7272;
+    /* text-shadow: 0px 0px 3px rgb(64 0 0 / 80%); */
+}
+
+.ball4 {
+    background: #aaa;
+    /* text-shadow: 0px 0px 3px rgb(61 61 61 / 80%); */
+}
+
+.ball5 {
+    background: #b0d840;
+    /* text-shadow: 0px 0px 3px rgb(41 56 0 / 80%); */
+}
+
+
+
+.ball_645 {
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px rgb(255 255 255 / 100%);
+}
