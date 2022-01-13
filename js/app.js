@@ -56,7 +56,6 @@ for (i = 0; i < 6; i++) {
 function wResize(event) {
     const wWidth = window.innerWidth;
     const spanScale = wWidth / 9;
-    const spanLScale = wWidth / 10;
     const spanTextScale = wWidth / 18;
     const spanElement = document.styleSheets[0].cssRules[0];
     spanElement.style.setProperty('width', `${spanScale}px`);
