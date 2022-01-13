@@ -8,7 +8,7 @@ ctx.stroke();
 /* const url = 'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=960';
 fetch(url).then(response => console.log(response)); */
 
-const url = "https://cors-anywhere.herokuapp.com/https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=960";
+const url = "https://cors-anywhere.herokuapp.com/https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EB%B3%B5%EA%B6%8C";
 fetch(url).then(response => console.log(response));
 
 lottoNum = new Array(45);
@@ -27,7 +27,6 @@ for (i = 0; i < 6; i++) {
 myNum = myNum.sort((a, b) => {
     return a - b;
 });
-
 
 
 for (i = 0; i < 6; i++) {

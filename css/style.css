@@ -1,3 +1,13 @@
+nav:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+nav:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
 nav span {
     margin: 0.5em;
     font-size: 20pt;
@@ -6,10 +16,7 @@ nav span {
     line-height: 36px;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
+
 
 .ball1 {
     background: #fbc400;
